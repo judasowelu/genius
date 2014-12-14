@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'socket.iop' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'socket.iop', null ]
+6 verbose cache add name=undefined spec="socket.iop" args=["socket.iop",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'socket.iop',
+7 verbose parsed url   path: 'socket.iop',
+7 verbose parsed url   href: 'socket.iop' }
+8 silly lockFile c43567b9-socket-iop socket.iop
+9 verbose lock socket.iop C:\Users\soomin\AppData\Roaming\npm-cache\c43567b9-socket-iop.lock
+10 silly lockFile c43567b9-socket-iop socket.iop
+11 silly lockFile c43567b9-socket-iop socket.iop
+12 verbose addNamed [ 'socket.iop', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c4ddbd73-socket-iop socket.iop@
+15 verbose lock socket.iop@ C:\Users\soomin\AppData\Roaming\npm-cache\c4ddbd73-socket-iop.lock
+16 silly addNameRange { name: 'socket.iop', range: '*', hasData: false }
+17 verbose request where is /socket.iop
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id aecd4fab31a81344
+20 verbose url raw /socket.iop
+21 verbose url resolving [ 'https://registry.npmjs.org/', './socket.iop' ]
+22 verbose url resolved https://registry.npmjs.org/socket.iop
+23 verbose request where is https://registry.npmjs.org/socket.iop
+24 info trying registry request attempt 1 at 08:31:59
+25 http GET https://registry.npmjs.org/socket.iop
+26 http 404 https://registry.npmjs.org/socket.iop
+27 verbose headers { date: 'Fri, 12 Dec 2014 23:32:00 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-ty66-TYO',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1418427120.245206,VS0,VE753',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Fri, 12 Dec 2014 23:32:00 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1418427120.245206,VS0,VE753',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile c4ddbd73-socket-iop socket.iop@
+30 silly lockFile c4ddbd73-socket-iop socket.iop@
+31 error 404 404 Not Found: socket.iop
+31 error 404
+31 error 404 'socket.iop' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "socket.iop"
+34 error cwd D:\dev\project\genius
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

@@ -1,0 +1,2 @@
+mongodb order
+"C:\Program Files\MongoDB 2.6 Standard"\bin\mongod --dbpath D:\dev\project\genius\mongoDBData
